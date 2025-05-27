@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Camino de Muxía i Fisterra - Juny 2026</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Portada -->
+    <header
+      class="hero text-black d-flex align-items-center justify-content-center"
+    >
+      <div class="text-center">
+        <h1>Camino de Muxía i Fisterra</h1>
+        <p class="lead">Un viatge mare i filla - Juny 2026</p>
+      </div>
+    </header>
+
+    <main class="container py-5">
+      <!-- Intro -->
+      <section>
+        <!-- Dia 1 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img
+            src="img/dia1.jpg"
+            class="card-img-top"
+            alt="Camí cap a Negreira"
+          />
+          <div class="card-body">
+            <h3>🗓️ Dia 1: Santiago → Negreira (21 km)</h3>
+            <p>
+              <strong>Allotjament:</strong> Albergue de peregrinos de Negreira
+            </p>
+            <p>
+              Etapa bonica que comença entre carrers històrics, passant pel riu
+              Sar, i acaba en l'encantadora Negreira. Visitem Ponte Maceira, un
+              dels ponts medievals més bonics del camí.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia1"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+
+        <!-- Dia 2 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img
+            src="img/dia2.jpg"
+            class="card-img-top"
+            alt="Camí rural a Santa Mariña"
+          />
+          <div class="card-body">
+            <h3>🗓️ Dia 2: Negreira → Santa Mariña (21 km)</h3>
+            <p>
+              <strong>Allotjament:</strong> Albergue de Santa Mariña
+              <span
+                tabindex="0"
+                class="badge bg-danger text-dark ms-2"
+                data-bs-toggle="popover"
+                data-bs-trigger="focus"
+                title="Albergue Privat"
+                data-bs-content="Cal reservar al 655806800"
+              >
+                Privat
+              </span>
+            </p>
+            <p>
+              Travessem camps i petits pobles amb paisatges verds i
+              tranquil·litat absoluta. Ideal per connectar amb la natura.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia2"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+
+        <!-- Dia 3 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img
+            src="img/dia3.jpg"
+            class="card-img-top"
+            alt="Camí cap a Dumbría"
+          />
+          <div class="card-body">
+            <h3>🗓️ Dia 3: Santa Mariña → Dumbría (19 km)</h3>
+            <p><strong>Allotjament:</strong> Albergue de Peregrinos Do Conco</p>
+            <p>
+              Etapa curta i agradable entre boscos de pins i castanyers. Veurem
+              horreus, arquitectura rural gallega i molta pau.
+            </p>
+            <p>
+              <strong>💡 Consell:</strong> Apropa't a la cascada del Ézaro,
+              l'única cascada d'Europa que desemboca al mar. Es troba a prop de
+              Dumbría, un desviament fàcil i molt recomanable.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia3"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+
+        <!-- Dia 4 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img src="img/dia4.jpg" class="card-img-top" alt="Arribada a Muxía" />
+          <div class="card-body">
+            <h3>🗓️ Dia 4: Dumbría → Muxía (22 km)</h3>
+            <p><strong>Allotjament:</strong> Albergue de peregrinos de Muxía</p>
+            <p>
+              Etapa màgica que arriba a l'oceà. Veurem la Ermida da Virxe da
+              Barca i les famoses pedres “os Cadrís”.
+            </p>
+            <p>
+              <strong>💡 Consell:</strong> No et pergues la Pedra do Brazal, un
+              fenomen geològic espectacular que es troba a la vessant del Monte
+              Castelo, a prop del camí.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia4"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+
+        <!-- Dia 5 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img
+            src="img/dia5.jpg"
+            class="card-img-top"
+            alt="Camí cap a Fisterra"
+          />
+          <div class="card-body">
+            <h3>🗓️ Dia 5: Muxía → Fisterra (29 km)</h3>
+            <p>
+              <strong>Allotjament:</strong> Albergue de peregrinos de Fisterra
+            </p>
+            <p>
+              Etapa llarga però espectacular. Camins costaners, vistes de
+              l'Atlàntic i arribada a Fisterra, on diuen que acabava el món.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia5"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+
+        <!-- Dia 6 -->
+        <div class="stage card mb-4 shadow-sm">
+          <img src="img/dia6.jpg" class="card-img-top" alt="Faro de Fisterra" />
+          <div class="card-body">
+            <h3>🗓️ Dia 6: Fisterra → Faro</h3>
+            <p>
+              <strong>Activitat:</strong> Caminada curta al Faro de Fisterra.
+              Contemplem la posta de sol i fem balanç del viatge.
+            </p>
+            <button
+              type="button"
+              class="btn btn-warning mt-2"
+              data-bs-toggle="modal"
+              data-bs-target="#modalDia6"
+            >
+              Detall
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Info Fisterrana -->
+      <section class="mt-5">
+        <h2>🏅 La Fisterrana</h2>
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <p>
+              Quan arribem a Fisterra podrem aconseguir la
+              <strong>Fisterrana</strong>, un certificat que acredita haver
+              completat aquesta etapa final del Camino de Santiago. Cal destacar
+              que la <em>Fisterrana</em> no és el mateix que la
+              <em>Compostelana</em>, que s'obté a Santiago per fer la ruta fins
+              allí. La Fisterrana és un reconeixement especial per arribar al
+              “final del món”.
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img
+              src="img/fisterrana.jpg"
+              alt="Certificat Fisterrana"
+              class="img-fluid rounded shadow"
+              style="max-width: 50%; height: auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Tornada -->
+      <section class="mt-5">
+        <h3>🚍 Tornada a casa</h3>
+        <p>
+          Bus Fisterra → Santiago de Compostela (3 hores, 7,30€). Vol cap a
+          Alacant amb records inesborrables.
+        </p>
+      </section>
+
+      <!-- Records d'altres Caminos -->
+      <section class="mt-5">
+        <h2 class="text-center mb-3">📸 Records d'altres Caminos</h2>
+        <p class="text-center text-muted mb-4">
+          Dos aventures passades que ens han portat fins ací
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-md-5 mb-3">
+            <div class="card shadow-sm">
+              <img
+                src="img/santiago1.jpg"
+                class="card-img-top1"
+                alt="Camino anterior 1"
+              />
+            </div>
+          </div>
+          <div class="col-md-5 mb-3">
+            <div class="card shadow-sm">
+              <img
+                src="img/santiago2.jpg"
+                class="card-img-top1"
+                alt="Camino anterior 2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Modals de cada Detall-->
+      <div
+        class="modal fade"
+        id="modalDia1"
+        tabindex="-1"
+        aria-labelledby="modalDia1Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia1Label">
+                Detall - Dia 1: Santiago → Negreira
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 4h 20m – Dificultat:
+                mitjana-baixa
+              </p>
+              <ul>
+                <li>
+                  <strong>Alto do Vento – 1h 45m:</strong> Sortim de Santiago
+                  creuant carrers de pedra i deixant enrere la catedral. El camí
+                  ens porta per camins ombrívols i suaus pujades fins arribar a
+                  l’Alto do Vento, un punt elevat amb vistes verdes i
+                  tranquil·les.
+                </li>
+
+                <li>
+                  <strong>Mar de Ovellas – 55m:</strong> El tram continua per
+                  zones rurals amb boscos de castanyers i prats oberts. Arribem
+                  a Mar de Ovellas, un llogaret que respira pau i autenticitat
+                  gallega. Ideal per fer una parada curta i respirar natura.
+                </li>
+
+                <li>
+                  <strong>Ponte Maceira – 55m:</strong> Creuem un dels punts més
+                  icònics del camí: el pont medieval de Ponte Maceira. Construït
+                  en pedra sobre el riu Tambre, envoltat per molins antics i
+                  vegetació frondosa. És com entrar en una postal. Hi ha un banc
+                  ideal per descansar i contemplar.
+                </li>
+
+                <li>
+                  <strong>Negreira – 45m:</strong> L’últim tram ens porta entre
+                  senders i finques rurals fins a Negreira, una vila viva i amb
+                  història. Passegem pel seu centre, amb casa senyorials com el
+                  Pazo do Cotón, i gaudim d’un sopar reconfortant després del
+                  primer dia.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="modalDia2"
+        tabindex="-1"
+        aria-labelledby="modalDia2Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia2Label">
+                Detall - Dia 2: Negreira → Santa Mariña
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 4h 30m – Dificultat: mitjana
+              </p>
+              <ul>
+                <li>
+                  <strong>Zas – 40m:</strong> Eixim de Negreira entre senders
+                  amples, amb vistes de camps verds. Zas és un petit nucli rural
+                  amb cases de pedra i tranquil·litat absoluta. Ideal per
+                  començar el dia amb calma.
+                </li>
+
+                <li>
+                  <strong>O Cornado – 2h 20m:</strong> Travessem boscos
+                  frondosos, antics camins empedrats i alguns trams de corriol.
+                  És una etapa amb molta natura i silenci. A O Cornado trobem
+                  fonts i ombra per fer una parada.
+                </li>
+
+                <li>
+                  <strong>Santa Mariña – 1h 30m:</strong> L’última part ens
+                  porta per paisatges oberts, amb prats i masies. Arribem a
+                  Santa Mariña, un poble menut i hospitalari. L’albergue és
+                  tranquil i familiar, perfecte per descansar. Recorda que és
+                  privat i cal reservar.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="modalDia3"
+        tabindex="-1"
+        aria-labelledby="modalDia3Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia3Label">
+                Detall - Dia 3: Santa Mariña → Dumbría
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 5h 55m – Dificultat: mitjana
+              </p>
+              <ul>
+                <li>
+                  <strong>Lago – 1h 40m:</strong> Caminem per una zona de
+                  muntanya suau, amb boscos d'eucaliptus i vistes panoràmiques.
+                  A Lago trobem un petit conjunt de cases de pedra i molta pau.
+                </li>
+
+                <li>
+                  <strong>Olveiroa – 1h 35m:</strong> Aquest tram és un dels més
+                  bonics, ple d’hórreos típics, senders rurals i un ambient
+                  totalment gallec. A Olveiroa hi ha una atmosfera de camí molt
+                  especial, amb serveis per a peregrins i arquitectura
+                  tradicional gallega.
+                </li>
+
+                <li>
+                  <strong>Hospital – 1h 15m:</strong> Travessem una zona més
+                  oberta, amb vistes amples i pocs arbres. Hospital és un antic
+                  creuament de camins, un punt simbòlic per a molts peregrins.
+                  És una bona zona per fer una pausa i hidratar-se.
+                </li>
+
+                <li>
+                  <strong>Dumbría – 1h 25m:</strong> L’etapa finalitza amb una
+                  baixada agradable cap a Dumbría, poble amb encant i bones
+                  instal·lacions. Des d'ací tens la possibilitat de fer una
+                  excursió opcional a la Cascada del Ézaro, una meravella
+                  natural que val molt la pena.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="modalDia4"
+        tabindex="-1"
+        aria-labelledby="modalDia4Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia4Label">
+                Detall - Dia 4: Dumbría → Muxía
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 5h 45m – Dificultat:
+                mitjana-baixa
+              </p>
+              <ul>
+                <li>
+                  <strong>Senande – 1h 25m:</strong> Un camí entre boscos humits
+                  i poblets tranquils, amb l'encant rural gallec. Senande
+                  conserva l'essència de la vida pagesa, amb cases de pedra i
+                  silenci absolut.
+                </li>
+
+                <li>
+                  <strong>San Martiño de Ozón – 1h 40m:</strong> Passarem pel
+                  Monestir de San Martiño, un edifici històric preciós amb un
+                  dels hórreos més llargs de Galícia. Ideal per fer una aturada
+                  i gaudir del patrimoni.
+                </li>
+
+                <li>
+                  <strong>Santuario da Virxe da Barca – 2h 30m:</strong> Una de
+                  les arribades més emocionants. El santuari es troba arran de
+                  l’oceà, amb les ones trencant contra les roques. Segons la
+                  tradició, la Mare de Déu va arribar en una barca de pedra per
+                  donar ànims a l’apòstol Sant Jaume. Allí veurem les famoses
+                  pedres “dos Cadrís” i “do Temón”, amb forma de barca i vela,
+                  plenes de llegenda i espiritualitat.
+                </li>
+
+                <li>
+                  <strong>Muxía – 10m:</strong> Últims metres fins al poble, amb
+                  el mar ja sempre a la vista. Muxía és un lloc tranquil, amb
+                  una atmosfera molt especial per tancar aquesta etapa mística i
+                  marinera.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="modalDia5"
+        tabindex="-1"
+        aria-labelledby="modalDia5Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia5Label">
+                Detall - Dia 5: Muxía → Fisterra
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 7h 05m – Dificultat:
+                mitjana-alta
+              </p>
+              <ul>
+                <li>
+                  <strong>Facho de Lourido – 45m:</strong> Inici amb pujades
+                  suaus i panoràmiques cap a l’oceà. El Facho és un antic lloc
+                  cerimonial amb vistes que et deixaran sense paraules.
+                </li>
+
+                <li>
+                  <strong>Lires – 2h 55m:</strong> Travessem un dels trams més
+                  solitaris però salvatges del camí. Lires és un poble pesquer
+                  preciós amb tradició marinera i gent hospitalària. Ideal per
+                  fer una aturada llarga i agafar forces.
+                </li>
+
+                <li>
+                  <strong>Castrexe – 1h 15m:</strong> Etapa amb ondulacions
+                  entre boscos i camps. Castrexe és un poblet rural típic amb un
+                  entorn tranquil. Aquí notem que ja ens acostem al gran final.
+                </li>
+
+                <li>
+                  <strong>Fisterra – 2h 10m:</strong> El tram final, ja amb la
+                  mar a l’horitzó. Arribar a Fisterra és una experiència
+                  transformadora. El poble, la platja de Langosteira i l’emoció
+                  de tocar el “final” d’Europa fan d’aquesta arribada un moment
+                  màgic i inoblidable.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="modalDia6"
+        tabindex="-1"
+        aria-labelledby="modalDia6Label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalDia6Label">
+                Detall - Dia 6: Fisterra → Faro de Fisterra
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Tancar"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <strong>Duració estimada:</strong> 50 minuts – Dificultat:
+                mitjana
+              </p>
+              <ul>
+                <li>
+                  <strong>Faro de Fisterra:</strong> Caminada curta però
+                  emotiva. El trajecte ascendent ens porta des del poble fins al
+                  far, situat sobre un penya-segat amb vistes infinites a
+                  l’Atlàntic.
+                </li>
+                <li>
+                  <strong>Què veurem:</strong> Durant la pujada, gaudirem de
+                  paisatges marins impressionants, creus simbòliques de
+                  pelegrins i restes de rituals antics. Al far, trobarem el
+                  famós km 0 i una atmosfera de silenci i reflexió.
+                </li>
+                <li>
+                  <strong>Moment final:</strong> La posta de sol des del far és
+                  un dels espectacles naturals més bonics de Galícia. Un lloc
+                  perfecte per tancar el viatge, acomiadar-nos del camí i
+                  guardar-lo per sempre al cor.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-white text-center py-4 mt-5 bg-footer">
+      <p>“Caminar és tornar a la senzillesa” - Bon camí, mare!</p>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    var popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
+    });
+  </script>
+</html>
